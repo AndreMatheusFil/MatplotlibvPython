@@ -9,8 +9,8 @@ list_y = []
 for i in list_x:
     list_y.append(func_terc_grau(i))
 
-plt.plot(list_x,list_y,color="g",label= "função de f(x)")
-plt.scatter(list_x,list_y)
+plt.plot(list_x,list_y,color="g",label= "função de f(x)") #grafico linha
+plt.scatter(list_x,list_y) #grafico bolinha
 plt.legend()
 plt.xlabel("Valores de X")
 plt.ylabel("Valores de Y")
